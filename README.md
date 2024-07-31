@@ -1,4 +1,2 @@
-# AWETheBird's Heaven
-open-source version of my website
-
--# this is an archive of the old site
+# [AWETheBird's Heaven](https://kirb101.github.io/AWETheBird-Heaven/)
+open-source version of my website. Things may be broken so please download the source and load `index.html` locally
