@@ -1,0 +1,38 @@
+body {
+    background-image: url('bg.png');
+    background-repeat: repeat;
+    background-position: right top;
+    font-family: 'Times New Roman', serif;
+    font-kerning: none;
+    font-variant: normal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-clip: content-box;
+    background-origin: content-box;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.content {
+    color: white;
+    background-color: black;
+    padding: 10px; /* Adjust as needed */
+}
+
+.blink {
+    font-family: 'Comic Sans MS',
+    cursive;
+    color: #00FF00;
+    animation: blink-animation 1s infinite;
+    animation: blink-animation 1s steps(1) infinite;
+}
+
+@keyframes blink-animation {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}

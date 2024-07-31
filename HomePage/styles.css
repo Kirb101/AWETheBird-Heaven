@@ -1,0 +1,129 @@
+body {
+    background-image: url('bg.gif');
+    background-repeat: repeat;
+    background-position: right top;
+    font-family: 'Times New Roman', serif;
+    font-kerning: none;
+    font-variant: normal;
+    margin: 0;
+    padding: 0;
+    background-clip: content-box;
+    background-origin: content-box;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+header {
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:nth-child(10) {
+    margin-right: 0; /* No margin after the third item */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Added styling for the navbar background */
+nav {
+    background-color: #00000000;
+    overflow: hidden;
+}
+
+.content {
+    padding: 0 250px; /* Set padding to 250px on either side */
+    text-align: center; /* Center the content */
+}
+
+.content {
+    padding: 0 250px; /* Set padding to 250px on either side */
+    text-align: center; /* Center the content */
+    background-color: black; /* Set black background color */
+    color: white; /* Set text color to white */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.separator {
+    border: none;
+    border-top: 2px solid #ccc; /* Mid-grey separator */
+    width: 100%; /* Span the entire site's width */
+    margin: 20px 0; /* Add space above and below the separator */
+}
+
+.comic-sans {
+    font-family: 'Comic Sans MS', 'Comic Sans', 'Chalkboard', 'ChalkboardSE-Regular', sans-serrif;
+    font-size: 12pt;
+    text-align: center; /* Center the paragraphs */
+}
+
+/* Existing styles */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border: 2px solid transparent; /* Changing border color and making it transparent */
+    padding: 10px;
+}
+/* Existing styles */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border: 2px solid transparent; /* Changing border color and making it transparent */
+    padding: 10px;
+}
+
+.grid-item {
+    border: 1px solid black; /* Changing border color to black */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.youtube a, .twitch a, .neocities a {
+    font-size: 24pt; /* Setting font size to 24pt for link text */
+}
+
+.youtube {
+    width: 150px;
+    height: 100px;
+}
+
+.twitch {
+    width: 150px;
+    height: 100px;
+}
+
+.neocities {
+    width: 128px;
+    height: 128px;
+}

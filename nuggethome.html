@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            margin: 0;
+        }
+        .search-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .search-bar {
+            width: 600px;
+            font-size: 20px;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .links a {
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        #construction-image {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+        #blinking-text {
+            color: #0F0;
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 24px;
+            animation: bounce 2s linear infinite, blink 0.5s steps(1, end) infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { left: 0; }
+            50% { left: calc(50% - 10px); }
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <img id="construction-image" src="https://awethebird.neocities.org/images/under-construction.gif" alt="Under Construction">
+    <marquee id="blinking-text">New Nugget Window</marquee>
+    <div class="search-container">
+        <form action="https://search.yahoo.com/search" method="GET" target="_blank">
+            <input type="text" class="search-bar" name="p" placeholder="Search">
+        </form>
+        <div class="links">
+            <a href="https://music.youtube.com">YouTube Music</a>
+            <a href="https://www.youtube.com">YouTube</a>
+            <a href="https://copilot.microsoft.com">Microsoft Copilot</a>
+            <a href="https://chat.openai.com">ChatGPT</a>
+            <a href="https://awethebird.neocities.org">AWETheBird's Heaven</a>
+            <a href="https://www.github.com">GitHub</a>
+            <a href="https://www.discord.com/app">Discord</a>
+            <a href="https://twitch.tv">Twitch</a>
+        </div>
+    </div>
+</body>
+</html>
